@@ -233,3 +233,14 @@ p {
   font-size: 14px;
   line-height: 1.5;
 }
+
+.mail {
+  display: flex;
+  justify-content: center;
+}
+
+.mail__img {
+  width: 20%;
+  height: 20%;
+  cursor: pointer;
+}
