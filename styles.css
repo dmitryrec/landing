@@ -27,8 +27,9 @@ p {
 
 .container {
   width: 100%;
-  max-width: 1170px;
+  max-width: 1200px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
 .header {
@@ -190,6 +191,45 @@ p {
   opacity: 0;
   background-color: rgb(136, 136, 136, 0.7);
   transition: 0.3s all linear;
-
 }
 
+.team {
+  margin: 100px 0 80px;
+}
+
+.team__inner {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+
+.team__item {
+  width: 25%;
+  padding: 0 15px;
+  margin-bottom: 20px;
+}
+
+.team__photo {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.team__name {
+  margin-bottom: 10px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.team__pro {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: rgb(141, 135, 135);
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.team__info {
+  font-size: 14px;
+  line-height: 1.5;
+}
