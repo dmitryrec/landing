@@ -248,3 +248,18 @@ p {
   height: 10%;
   cursor: pointer;
 }
+
+.download {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 200px;
+}
+
+.donwload__title {
+  text-transform: uppercase;
+}
+
+.download__text {
+  text-transform: uppercase;
+}
