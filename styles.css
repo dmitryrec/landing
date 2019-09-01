@@ -197,6 +197,10 @@ p {
   margin: 100px 0 80px;
 }
 
+.team__title {
+  text-align: center;
+}
+
 .team__inner {
   display: flex;
   flex-wrap: wrap;
@@ -240,7 +244,7 @@ p {
 }
 
 .mail__img {
-  width: 20%;
-  height: 20%;
+  width: 10%;
+  height: 10%;
   cursor: pointer;
 }
