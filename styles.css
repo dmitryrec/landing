@@ -239,6 +239,7 @@ p {
 }
 
 .mail {
+  margin-top: 10px;
   display: flex;
   justify-content: center;
 }
@@ -262,4 +263,41 @@ p {
 
 .download__text {
   text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.footer {
+  padding: 70px 0;
+  background: rgb(0, 0, 0);
+}
+
+.footer__inner {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.footer__block {
+  width: 33.33333%;
+  text-align: center;
+}
+
+.footer__title{
+  text-transform: uppercase;
+  font-size: 14px;
+  color: white;
+  margin-bottom: 15px;
+}
+
+.footer__addres {
+  color: white;
+}
+
+.footer__social__item {
+  cursor: pointer;
+}
+
+.footer__about {
+  text-decoration: none;
+  color: white;
 }
