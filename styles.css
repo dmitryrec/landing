@@ -61,7 +61,7 @@ p {
   text-decoration: none;
   color: rgb(141, 135, 135);
   opacity: 0.8;
-  transition: .5s all ease;
+  transition: 0.5s all ease;
   margin-left: 30px;
   font-size: 20px;
 }
@@ -117,7 +117,7 @@ p {
   padding: 15px 30px;
   border-radius: 5px;
   margin: 5px;
-  transition: .5s all ease;
+  transition: 0.3s all linear;
 }
 
 .btn--black {
@@ -125,5 +125,26 @@ p {
 }
 
 .btn--black:hover {
-    background-color: rgb(141, 135, 135);
-  }
+  background-color: rgb(136, 136, 136);
+  color: black;
+}
+
+.features {
+  display: flex;
+  margin: 50px 0;
+  flex-wrap: wrap;
+}
+
+.features__item {
+  width: 33.33333%;
+  text-align: center;
+  margin: 25px 0px;
+}
+
+.features__icon {
+  margin-bottom: 10px;
+}
+
+.features__text {
+  padding: 25px;
+}
