@@ -293,6 +293,11 @@ p {
   color: white;
 }
 
+.footer__addres__text{
+  margin-top: 15px;
+  display: inline-block;
+}
+
 .footer__social__item {
   cursor: pointer;
 }
@@ -300,4 +305,16 @@ p {
 .footer__about {
   text-decoration: none;
   color: white;
+  margin-top: 15px;
+  display: inline-block;
+}
+
+.footer__copyright {
+  padding: 20px 0;
+  background: rgb(0, 0, 0);
+}
+
+.copyright__text {
+  color: white;
+  text-align: center;
 }
