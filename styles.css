@@ -370,6 +370,10 @@ p {
   .features__item{
     width: 50%;
   }
+  .team__item {
+    width: 50%;
+    text-align: center;
+  }
 }
 
 @media (max-width: 767px) {
@@ -391,6 +395,10 @@ p {
   }
   .works__item {
     width: 100%;
+  }
+  .team__item {
+    width: 100%;
+    text-align: center;
   }
 }
 
