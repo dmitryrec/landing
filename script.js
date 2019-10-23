@@ -13,7 +13,7 @@ function scrollToTop() {
     }
 };
 
-document.getElementById('up').onclick = function () {
+document.querySelector('#up').addEventListener('click', function () {
     scrolled = window.pageYOffset;
     scrollToTop();
-} 
+})  
