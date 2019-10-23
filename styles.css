@@ -367,7 +367,7 @@ p {
   align-items: center;
   cursor: pointer;
   font-size: 2rem;
-  z-index: 2;
+  z-index: 3;
   background: whitesmoke;
   color: gray;
 }
