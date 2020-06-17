@@ -110,7 +110,7 @@ p {
 }
 
 .slider {
-  width: 1100px;
+  max-width: 1100px;
   height: 600px;
   overflow: hidden;
   box-shadow: 0 0 5px rgb(0, 0, 0);
@@ -442,7 +442,7 @@ input[name="r"] {
   justify-content: center;
   align-items: center;
   cursor: pointer;
-  font-size: 2rem;
+  font-size: 20px;
   z-index: 3;
   background: whitesmoke;
   color: gray;
@@ -493,6 +493,10 @@ input[name="r"] {
   .team__item {
     width: 100%;
     text-align: center;
+  }
+  #up {
+    width: 35px;
+    height: 35px;
   }
 }
 
